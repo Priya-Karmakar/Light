@@ -1,1 +1,18 @@
+#include<stdio.h>
+int main(){
+    
+     // Write a program to calculate your current age
+    int current_year;
+    int your_age;
+    int birth_year;
+    printf("Current Year:");
+    scanf("%d",&current_year);
+    printf("Birth Year:");
+    scanf("%d",&birth_year);
+    // Calculating you current age
+    your_age=current_year-birth_year;
 
+    printf("Your Current Age %d",your_age);
+
+    return 0;
+}
